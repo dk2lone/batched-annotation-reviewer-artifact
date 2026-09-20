@@ -1,0 +1,209 @@
+{
+  "batch_size": [
+    {
+      "cell_key": "Qwen/Qwen3-8B::civil_comments",
+      "file": "batch_size/qwen--civil_comments.npz",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::imdb",
+      "file": "batch_size/granite--imdb.npz",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::civil_comments",
+      "file": "batch_size/llama--civil_comments.npz",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::multi_nli",
+      "file": "batch_size/mistral--multi_nli.npz",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    }
+  ],
+  "batch_size_execution_summary": "batch_size/execution_summary.json",
+  "covariance_grid": [
+    {
+      "cell_key": "Qwen/Qwen3-8B::civil_comments",
+      "file": "covariance_grid/qwen--civil_comments.npz",
+      "model_family": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "original_terminal_unresolved_calls": 93,
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "Qwen/Qwen3-8B::multi_nli",
+      "file": "covariance_grid/qwen--multi_nli.npz",
+      "model_family": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "original_terminal_unresolved_calls": 14,
+      "task_id": "multi_nli"
+    },
+    {
+      "cell_key": "Qwen/Qwen3-8B::imdb",
+      "file": "covariance_grid/qwen--imdb.npz",
+      "model_family": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "original_terminal_unresolved_calls": 9,
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "Qwen/Qwen3-8B::ag_news",
+      "file": "covariance_grid/qwen--ag_news.npz",
+      "model_family": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "original_terminal_unresolved_calls": 14,
+      "task_id": "ag_news"
+    },
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::civil_comments",
+      "file": "covariance_grid/granite--civil_comments.npz",
+      "model_family": "granite",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "original_terminal_unresolved_calls": 545,
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::multi_nli",
+      "file": "covariance_grid/granite--multi_nli.npz",
+      "model_family": "granite",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "original_terminal_unresolved_calls": 158,
+      "task_id": "multi_nli"
+    },
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::imdb",
+      "file": "covariance_grid/granite--imdb.npz",
+      "model_family": "granite",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "original_terminal_unresolved_calls": 416,
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::ag_news",
+      "file": "covariance_grid/granite--ag_news.npz",
+      "model_family": "granite",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "original_terminal_unresolved_calls": 248,
+      "task_id": "ag_news"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::civil_comments",
+      "file": "covariance_grid/llama--civil_comments.npz",
+      "model_family": "llama",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "original_terminal_unresolved_calls": 12,
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::multi_nli",
+      "file": "covariance_grid/llama--multi_nli.npz",
+      "model_family": "llama",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "original_terminal_unresolved_calls": 31,
+      "task_id": "multi_nli"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::imdb",
+      "file": "covariance_grid/llama--imdb.npz",
+      "model_family": "llama",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "original_terminal_unresolved_calls": 59,
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::ag_news",
+      "file": "covariance_grid/llama--ag_news.npz",
+      "model_family": "llama",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "original_terminal_unresolved_calls": 21,
+      "task_id": "ag_news"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::civil_comments",
+      "file": "covariance_grid/mistral--civil_comments.npz",
+      "model_family": "mistral",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "original_terminal_unresolved_calls": 533,
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::multi_nli",
+      "file": "covariance_grid/mistral--multi_nli.npz",
+      "model_family": "mistral",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "original_terminal_unresolved_calls": 397,
+      "task_id": "multi_nli"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::imdb",
+      "file": "covariance_grid/mistral--imdb.npz",
+      "model_family": "mistral",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "original_terminal_unresolved_calls": 158,
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::ag_news",
+      "file": "covariance_grid/mistral--ag_news.npz",
+      "model_family": "mistral",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "original_terminal_unresolved_calls": 294,
+      "task_id": "ag_news"
+    }
+  ],
+  "dataset_indices": {
+    "ag_news": {
+      "file": "dataset_indices/ag_news.csv",
+      "rows": 8192
+    },
+    "civil_comments": {
+      "file": "dataset_indices/civil_comments.csv",
+      "rows": 8192
+    },
+    "imdb": {
+      "file": "dataset_indices/imdb.csv",
+      "rows": 8192
+    },
+    "multi_nli": {
+      "file": "dataset_indices/multi_nli.csv",
+      "rows": 8192
+    }
+  },
+  "error_encoding": "0 agrees with dataset reference; 1 disagrees; NaN unresolved",
+  "format": "analysis-ready call-level error arrays",
+  "repeated_sampling": [
+    {
+      "cell_key": "ibm-granite/granite-3.3-8b-instruct::imdb",
+      "file": "repeated_sampling/granite--imdb.npz",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "repaired_calls": 730,
+      "task_id": "imdb"
+    },
+    {
+      "cell_key": "meta-llama/Llama-3.1-8B-Instruct::civil_comments",
+      "file": "repeated_sampling/llama--civil_comments.npz",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "repaired_calls": 51,
+      "task_id": "civil_comments"
+    },
+    {
+      "cell_key": "mistralai/Mistral-7B-Instruct-v0.3::multi_nli",
+      "file": "repeated_sampling/mistral--multi_nli.npz",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "repaired_calls": 233,
+      "task_id": "multi_nli"
+    },
+    {
+      "cell_key": "Qwen/Qwen3-8B::civil_comments",
+      "file": "repeated_sampling/qwen--civil_comments.npz",
+      "model_id": "Qwen/Qwen3-8B",
+      "repaired_calls": 81,
+      "task_id": "civil_comments"
+    }
+  ]
+}

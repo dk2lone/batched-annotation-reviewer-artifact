@@ -1,0 +1,288 @@
+{
+  "attempt_1_calls": 586752,
+  "calls": 586752,
+  "counts": [
+    {
+      "batch_size": 2,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 2,
+      "calls": 12288,
+      "condition": "joint",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 4,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 4,
+      "calls": 6144,
+      "condition": "joint",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 8,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 8,
+      "calls": 3072,
+      "condition": "joint",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 16,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 16,
+      "calls": 1536,
+      "condition": "joint",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 32,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 32,
+      "calls": 768,
+      "condition": "joint",
+      "model_id": "Qwen/Qwen3-8B",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 2,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 2,
+      "calls": 12288,
+      "condition": "joint",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 4,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 4,
+      "calls": 6144,
+      "condition": "joint",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 8,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 8,
+      "calls": 3072,
+      "condition": "joint",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 16,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 16,
+      "calls": 1536,
+      "condition": "joint",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 32,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 32,
+      "calls": 768,
+      "condition": "joint",
+      "model_id": "ibm-granite/granite-3.3-8b-instruct",
+      "task_id": "imdb"
+    },
+    {
+      "batch_size": 2,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 2,
+      "calls": 12288,
+      "condition": "joint",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 4,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 4,
+      "calls": 6144,
+      "condition": "joint",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 8,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 8,
+      "calls": 3072,
+      "condition": "joint",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 16,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 16,
+      "calls": 1536,
+      "condition": "joint",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 32,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 32,
+      "calls": 768,
+      "condition": "joint",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "task_id": "civil_comments"
+    },
+    {
+      "batch_size": 2,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 2,
+      "calls": 12288,
+      "condition": "joint",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 4,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 4,
+      "calls": 6144,
+      "condition": "joint",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 8,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 8,
+      "calls": 3072,
+      "condition": "joint",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 16,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 16,
+      "calls": 1536,
+      "condition": "joint",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 32,
+      "calls": 24576,
+      "condition": "exact_context",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    },
+    {
+      "batch_size": 32,
+      "calls": 768,
+      "condition": "joint",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "task_id": "multi_nli"
+    }
+  ],
+  "parse_status_ok_calls": 586752,
+  "status_ok_calls": 586752
+}
